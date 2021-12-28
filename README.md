@@ -1,3 +1,7 @@
+# This is the modified version of the [Original](https://github.com/MeixinZhu/Velocity_control) Repository
+
+# Below the contents from the [Original](https://github.com/MeixinZhu/Velocity_control) Repository
+
 # Safe, efficient, and comfortable velocity control based on reinforcement learning for autonomous driving
 Source code for paper Zhu, M., Wang, Y., Pu, Z., Hu, J., Wang, X., & Ke, R. (2020). Safe, efficient, and comfortable velocity control based on reinforcement learning for autonomous driving. Transportation Research Part C: Emerging Technologies, 117, 102662. https://www.sciencedirect.com/science/article/pii/S0968090X20305775 
 
