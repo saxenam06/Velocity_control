@@ -1,4 +1,4 @@
-# This is the modified version of the [Original](https://github.com/MeixinZhu/Velocity_control) Repository
+This is the modified version of the Original Repository.
 
 # Below the contents from the [Original](https://github.com/MeixinZhu/Velocity_control) Repository
 
@@ -25,5 +25,5 @@ Each element (cell or matrix) in the trainSet.mat and testSet.mat describes a ca
   volume={117},
   pages={102662},
   year={2020},
-  publisher={Elsevier}
+  publisher={Elsevier
 }
