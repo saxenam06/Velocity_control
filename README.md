@@ -5,7 +5,7 @@ In most of the cases as below, its observed that the trained DDPG RL policy fits
 The architecture is changed as compared to the architecture in the original repository. Two hidden layers of 30 Neurons each with ReLU activation function are used for all Actor-Critic Evaluation & Target Networks to achieve the below performance. Collision avoidance guidance is activated and TTC is kept same. 
 
 LV--> Leading Vehicle <br/>
-SV--> Simulated Vehicle/ FOllower Vehicle <br/>
+SV--> Simulated Vehicle/ Follower Vehicle <br/>
 RL--> Using DDPG Reinforcement Learning <br/>
 MPC--> Using Model predictive control <br/>
 
