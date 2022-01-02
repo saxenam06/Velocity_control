@@ -1,3 +1,15 @@
+In addition to the original repository, I further provide addtional trained networks with Collision Avoidance guidance. 
+Below the performance is shown for some test datasets which were not seen during training.
+In most of the cases as below, its observed that the trained policy fits very closely to the optimal policy solved by MPC.
+![image](https://user-images.githubusercontent.com/83720464/147878177-0584e828-ccec-4bb0-b73a-d632bcc5ad67.png)
+![image](https://user-images.githubusercontent.com/83720464/147878190-c573c5d1-7d57-4bcc-a456-69583d45c07c.png)
+![image](https://user-images.githubusercontent.com/83720464/147878195-43143b3b-d012-4a16-8023-66640312cc0d.png)
+
+However, In the below case, its observed that the trained policy largely differs from the optimal policy solved by MPC even if the Objective function is carefully kept identical.
+The possible reasons could be that the control solution is optimal under the assumption that the N-step future Prediction of the states is correctly pursued by the Leading and the following vehicles which ofcourse is not the case. In this regard, the reinforcement learning approach is more promising as it doesnt need the N-step future prediction of the states and infact calculates the optimal policy using only the current state information. 
+
+![image](https://user-images.githubusercontent.com/83720464/147878227-66a2d71d-1c97-41bd-abb4-a5131e4c9d4d.png)
+
 This is the modified version of the Original Repository.
 
 # Below the contents from the [Original](https://github.com/MeixinZhu/Velocity_control) Repository
