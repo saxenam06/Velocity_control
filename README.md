@@ -1,8 +1,11 @@
 In addition to the original repository, I further provide addtional trained networks with Collision Avoidance guidance. 
 Below the performance is shown for some test datasets which were not seen during training.
 In most of the cases as below, its observed that the trained policy fits very closely to the optimal policy solved by MPC.
+
 ![image](https://user-images.githubusercontent.com/83720464/147878177-0584e828-ccec-4bb0-b73a-d632bcc5ad67.png)
+
 ![image](https://user-images.githubusercontent.com/83720464/147878190-c573c5d1-7d57-4bcc-a456-69583d45c07c.png)
+
 ![image](https://user-images.githubusercontent.com/83720464/147878195-43143b3b-d012-4a16-8023-66640312cc0d.png)
 
 However, In the below case, its observed that the trained policy largely differs from the optimal policy solved by MPC even if the Objective function is carefully kept identical.
