@@ -6,7 +6,7 @@ The architecture is changed as compared to the architecture in the original repo
 
 LV--> Leading Vehicle <br/>
 SV--> Simulated Vehicle/ FOllower Vehicle <br/>
-RL--> using DDPG Reinforcement Learning <br/>
+RL--> Using DDPG Reinforcement Learning <br/>
 MPC--> Using Model predictive control <br/>
 
 ![image](https://user-images.githubusercontent.com/83720464/147878177-0584e828-ccec-4bb0-b73a-d632bcc5ad67.png)
