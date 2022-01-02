@@ -1,6 +1,6 @@
 In addition to the original repository, I further provide addtional trained networks with Collision Avoidance guidance. 
-Below the performance is shown for some test datasets which were not seen during training.
-In most of the cases as below, its observed that the trained RL policy fits very closely to the optimal policy solved by MPC.
+The performance is shown below for some test datasets which were not seen during training.
+In most of the cases as below, its observed that the trained DDPG RL policy fits very closely to the optimal policy solved by MPC.
 
 LV--> Leading Vehicle <br/>
 SV--> Simulated Vehicle/ FOllower Vehicle <br/>
