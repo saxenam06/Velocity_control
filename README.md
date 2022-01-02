@@ -14,7 +14,7 @@ MPC--> Using Model predictive control <br/>
 ![image](https://user-images.githubusercontent.com/83720464/147878195-43143b3b-d012-4a16-8023-66640312cc0d.png)
 
 However, In the below case, its observed that the trained DDPG RL policy largely differs from the optimal policy solved by MPC even if the Objective function is kept identical.
-The possible reasons could be that the control solution from MPC is optimal under the assumption that the N-step future Prediction of the states is correctly pursued by the Leading and the following vehicles which ofcourse is not guaranteed to happen in the data. In this regard, the reinforcement learning approach is more promising as it doesnt need the N-step future prediction of the states and infact calculates the optimal policy using only the current state information. 
+The possible reasons could be that the control solution from MPC is optimal under the assumption that the N-step future Prediction of the states is correctly pursued by the Leading and the Following vehicle which ofcourse is not guaranteed to happen in the data. In this regard, the reinforcement learning approach is more promising as it doesnt need the N-step future prediction of the states and infact calculates the optimal policy using only the current state information. 
 
 ![image](https://user-images.githubusercontent.com/83720464/147878227-66a2d71d-1c97-41bd-abb4-a5131e4c9d4d.png)
 
