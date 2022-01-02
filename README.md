@@ -2,10 +2,10 @@ In addition to the original repository, I further provide addtional trained netw
 Below the performance is shown for some test datasets which were not seen during training.
 In most of the cases as below, its observed that the trained RL policy fits very closely to the optimal policy solved by MPC.
 
-LV--> Leading Vehicle
-SV--> Simulated Vehicle/ FOllower Vehicle
-RL--> using DDPG Reinforcement Learning
-MPC--> Using Model predictive control
+#LV--> Leading Vehicle 
+#SV--> Simulated Vehicle/ FOllower Vehicle
+#RL--> using DDPG Reinforcement Learning
+#MPC--> Using Model predictive control
 
 ![image](https://user-images.githubusercontent.com/83720464/147878177-0584e828-ccec-4bb0-b73a-d632bcc5ad67.png)
 
